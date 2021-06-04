@@ -18,16 +18,16 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="{% url 'home' %}">GOMPA VAMSI KRISHNA</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link" href="#">Facebook</a>
-      <a class="nav-item nav-link" href="#">Resume</a>
-      <a class="nav-item nav-link" href="#">PortFolio</a>
-      <a class="nav-item nav-link" href="#">Blogs</a>
+      <a class="nav-item nav-link" href="https://www.facebook.com/profile.php?id=100007154264456" target="_blank">Facebook</a>
+      <a class="nav-item nav-link " href="https://twitter.com/vedic_vamsi" target="_blank">Twitter</a>
+      <a class="nav-item nav-link" href="{% static 'resume.pdf' %}" target="_blank">Resume</a>
+      <a class="nav-item nav-link" href="{% url 'allblog'%}">Blogs</a>
     </div>
   </div>
 </nav>
@@ -48,7 +48,7 @@
 
 <footer class="text-muted">
   <div class="container text-center">
-    <p>&copy; MonikaGompa {% now 'Y' %}</p>
+        <p>©️ VedicVamsi {% now "Y" %}</p>
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
